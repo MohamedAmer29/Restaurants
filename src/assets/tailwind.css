@@ -1,0 +1,37 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+:root {
+  --main-color: #252525;
+}
+* {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+@media screen and (max-width: 760px) {
+  #span {
+    font-size: small;
+  }
+  nav a {
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+  nav a i {
+    padding-right: 4px;
+  }
+}
+@media screen and (max-width: 480px) {
+  #span {
+    display: none;
+  }
+  nav a {
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+  nav a i {
+    padding-right: 1.5rem;
+  }
+}

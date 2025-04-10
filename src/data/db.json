@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "id": "50fa",
+      "email": "mohamed@gmail.com",
+      "password": "mohamed123",
+      "name": "Mohamed Amer"
+    },
+    {
+      "id": "1fc5",
+      "email": "mohamed@gmail.com",
+      "password": "mohamed3",
+      "name": "mohamed123"
+    },
+    {
+      "id": "44ea",
+      "email": "m@gmail.com",
+      "password": "mohamed",
+      "name": "Mohamed"
+    }
+  ],
+  "restaurant": [
+    {
+      "id": "bbe2",
+      "address": "Cairo",
+      "contact": "010101010",
+      "name": "Hadra Moot 3antar"
+    },
+    {
+      "id": "004c",
+      "address": "Cairo ",
+      "contact": "012012000",
+      "name": "ِِAlkababiji"
+    }
+  ]
+}
