@@ -15,7 +15,13 @@
         <tr>
           <td>{{ item.name }}</td>
 
-          <td><router-link :to="'/update/' + item.id">Update</router-link></td>
+          <td>
+            <router-link
+              class="bg-black text-white rounded-xl p-2"
+              :to="'/update/' + item.id"
+              >Update</router-link
+            >
+          </td>
         </tr>
       </tbody>
     </table>

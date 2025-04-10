@@ -1,19 +1,25 @@
-# new_project_4
+# Restaurant App
 
-## Project setup
+###### In this app we sorts all restaurants names, address and contacts.
+
+###### You have the ablity to update its information and delete it
+
+![1744302092059](image/README/1744302092059.png)
+
+#### This is Add restaurant tap
+
+![1744302117038](image/README/1744302117038.png)
+
+#### This is Update Tab
+
+![1744302213282](image/README/1744302213282.png)
+
+### First run `json-server` on db.json file in data folder
+
 ```
-npm install
+npm i json-server
 ```
 
-### Compiles and hot-reloads for development
 ```
-npm run serve
+json-server -w ./data/db.json
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

@@ -3,7 +3,7 @@
     <Header />
     <h1>Hello {{ userName }}, Welcome at Update Restaurant</h1>
     <div id="inputWrapper">
-      <h1 id="formH1">Update Resturant</h1>
+      <h1 id="formH1">Update Restaurant</h1>
       <div id="inputField">
         <form @submit.prevent="updateRestaurant">
           <input
