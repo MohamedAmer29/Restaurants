@@ -17,7 +17,9 @@
 
 ### First run `json-server` on db.json file in data folder
 
-```
+``
+
+`
 npm i json-server
 ```
 
